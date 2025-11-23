@@ -18,3 +18,6 @@ EXPOSE: EXPOSE is the instruction used to add the information about the ports us
 
 COPY: Copies the content or files into the image
 
+ENV: ENV is environment variables , which is key value pair . Used to set environment variables. we can access those with in the container aswell
+
+ADD:
