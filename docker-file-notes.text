@@ -20,4 +20,6 @@ COPY: Copies the content or files into the image
 
 ENV: ENV is environment variables , which is key value pair . Used to set environment variables. we can access those with in the container aswell
 
-ADD:
+ADD: ADD instruction is similar to COPY instruction but have 2 special features
+        1.It can directly fetch content from internet
+        2.It can directly untar the file inside image
