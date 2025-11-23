@@ -1,1 +1,15 @@
-This file contains concepts of Dockerfile basics
+                            This file contains concepts of Dockerfile basics
+                            ------------------------------------------------
+
+FROM: FROM is the instruction used to refer the base image . It is the first instruction in docker file . 
+        In sometimes ARG is the first instruction but only in some exceptional cases
+
+RUN: RUN is the instruction used to configure the image like installing packages, user adding etc,
+
+CMD: CMD is the instruction used to start the services. If we give any command in CMD it should run the container 
+        infinite time and it should run in foreground and we have to make it to run in background
+
+LABEL: LABEL is the instruction used to provide metadata to an image. It doesnot add any functionality . 
+        It is a key-value pair . It can helps to filer the images
+
+MAINTAINER: Here MAINTAINER is depricated . It is like author for this image . we can add it like label with key author
