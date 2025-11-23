@@ -4,4 +4,8 @@ FROM almalinux:9
 # If we run    docker run entry:v1 ping facebook.com . It will ping to facebook.com means it is overriding CMD
 # where as ENTRYPOINT cannot overrided
 
-ENTRYPOINT ["ping","google.com"]
+# ENTRYPOINT ["ping","google.com"]
+
+CMD ["google.com"]
+
+ENTRYPOINT ["ping"]
