@@ -15,3 +15,6 @@ LABEL: LABEL is the instruction used to provide metadata to an image. It doesnot
 MAINTAINER: Here MAINTAINER is depricated . It is like author for this image . we can add it like label with key author
 
 EXPOSE: EXPOSE is the instruction used to add the information about the ports used by container. It doesnot add any functionality.
+
+COPY: Copies the content or files into the image
+
