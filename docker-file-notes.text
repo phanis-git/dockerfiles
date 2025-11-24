@@ -25,3 +25,9 @@ ADD: ADD instruction is similar to COPY instruction but have 2 special features
         2.It can directly untar the file inside image
 
 ENTRYPOINT: It sets the starting point for the application is running
+
+USER: USER instruction used to set the user. Dockerfile bydefault set the user as root user which have full access.But giving full access is potential  security risks
+
+WORKDIR: WORKDIR instruction used to navigate to the directory or current working directory
+
+
