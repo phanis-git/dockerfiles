@@ -32,4 +32,4 @@ WORKDIR: WORKDIR instruction used to navigate to the directory or current workin
 
 ARG: ARG is the instruction used to set the arguments in the docker build command . It means build time variables that can passed during the image build process. Like this parameterizing the arguments makes more dynamic
 
-ONBUILD: It adds a trigger instruction to the image
+ONBUILD: It adds a trigger instruction to the image , It means we are building an image and making others to use it and making something mandatory . so he i make index.html is mandatory
