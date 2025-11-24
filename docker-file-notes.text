@@ -30,4 +30,6 @@ USER: USER instruction used to set the user. Dockerfile bydefault set the user a
 
 WORKDIR: WORKDIR instruction used to navigate to the directory or current working directory
 
+ARG: ARG is the instruction used to set the arguments in the docker build command . It means build time variables that can passed during the image build process. Like this parameterizing the arguments makes more dynamic
 
+ONBUILD: It adds a trigger instruction to the image
