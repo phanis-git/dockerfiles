@@ -23,3 +23,5 @@ ENV: ENV is environment variables , which is key value pair . Used to set enviro
 ADD: ADD instruction is similar to COPY instruction but have 2 special features
         1.It can directly fetch content from internet
         2.It can directly untar the file inside image
+
+ENTRYPOINT: It sets the starting point for the application is running
